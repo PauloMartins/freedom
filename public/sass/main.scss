@@ -8,7 +8,7 @@ body {
 }
 
 // General
-#container {
+.wrap {
 	width: 1060px;
 	margin: 0 auto;
 }
@@ -48,6 +48,7 @@ body {
 			left: 6px;
 			padding: 3%;
 			position: absolute;
+			display: none;
 		}
 
 		input {
@@ -69,6 +70,39 @@ body {
 				text-transform: uppercase;
 				width: 300px;
 			}
+		}
+
+		.errorMessage {
+			position: absolute;
+			right: 5px;
+			top: 14px;
+			color: red;
+			padding: 1px 5px;
+		}
+	}
+}
+
+#header {
+	position: relative;
+	height: 80px;
+	background-color: #FFF;
+	top: -80px;
+}
+
+.grid {
+	margin-top: 100px;
+
+	.column {
+		float: left;
+		width: 249px;
+		margin-right: 20px;
+
+		&.last {
+			margin: 0;
+		}
+		
+		.box {
+			background-color: #FFF;
 		}
 	}
 }

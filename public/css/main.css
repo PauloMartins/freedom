@@ -4,7 +4,7 @@ body {
 * {
   font-family: 'Text Me One', sans-serif; }
 
-#container {
+.wrap {
   width: 1060px;
   margin: 0 auto; }
 
@@ -35,7 +35,8 @@ body {
       top: 2px;
       left: 6px;
       padding: 3%;
-      position: absolute; }
+      position: absolute;
+      display: none; }
     .form.login fieldset input {
       border: none;
       width: 268px;
@@ -53,3 +54,26 @@ body {
         color: #FFF;
         text-transform: uppercase;
         width: 300px; }
+    .form.login fieldset .errorMessage {
+      position: absolute;
+      right: 5px;
+      top: 14px;
+      color: red;
+      padding: 1px 5px; }
+
+#header {
+  position: relative;
+  height: 80px;
+  background-color: #FFF;
+  top: -80px; }
+
+.grid {
+  margin-top: 100px; }
+  .grid .column {
+    float: left;
+    width: 249px;
+    margin-right: 20px; }
+    .grid .column.last {
+      margin: 0; }
+    .grid .column .box {
+      background-color: #FFF; }

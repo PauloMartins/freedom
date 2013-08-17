@@ -20,9 +20,7 @@
     </head>
     <body>
 
-        <div id="container">
         <?php echo $content; ?>
-        </div>
 
 		<script src="<?php echo Yii::app()->request->baseUrl; ?>/public/js/vendor/jquery-1.10.1.min.js"></script>
         <script src="<?php echo Yii::app()->request->baseUrl; ?>/public/js/plugins.js"></script>

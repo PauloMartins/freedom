@@ -30,6 +30,9 @@ class Controller extends CController
 		// Define vars
 		$this->cs = Yii::app()->clientScript;
 
+		// Language
+		Yii::app()->language = 'pt_br';
+
 		parent::init();
 	}
 

@@ -2,3 +2,4 @@
 assets/
 protected/data/MER-Freedom.mwb.bak
 protected/runtime
+public/.sass-cache

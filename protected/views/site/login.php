@@ -1,6 +1,4 @@
-<?php
-	$this->registerScript('login', "placeholder();");
-?>
+<?php $this->registerScript('login', "placeholder();"); ?>
 
 <div id="content">
 	<div class="form login">
