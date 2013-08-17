@@ -1,3 +1,4 @@
 .DS_Store
 assets/
 protected/data/MER-Freedom.mwb.bak
+protected/runtime

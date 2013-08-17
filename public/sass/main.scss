@@ -1,0 +1,74 @@
+body {
+	background: transparent url(../images/bg.jpg) no-repeat top center;
+}
+
+* {
+	// font-family: 'Cabin Condensed', sans-serif;
+	font-family: 'Text Me One', sans-serif;
+}
+
+// General
+#container {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+// Login
+.form.login {
+	background-color: #FFF;
+	width: 300px;
+	margin: 250px auto 0 auto;
+	padding: 25px;
+
+	h2 {
+		display: block;
+		margin: 0;
+		border-bottom: 1px solid #EFEFEF;
+		margin: 0 0 20px 0;
+		padding: 3px 0 3px 0;
+		text-transform: uppercase;
+		font-weight: 700;
+		color: #444;
+	}
+
+	fieldset {
+		margin: 10px 0;
+		position: relative;
+
+		label,
+		input {
+			font-size: 18px;
+			color: #AAA;
+			text-transform: lowercase;
+			font-weight: 400;
+		}
+
+		label {
+			top: 2px;
+			left: 6px;
+			padding: 3%;
+			position: absolute;
+		}
+
+		input {
+			border: none;
+			width: 268px;
+			display: block;
+			padding: 15px;
+			background-color: #F8F8F8;
+			border: 1px solid #EFEFEF;
+			border-bottom: 1px solid #D6D6D6;
+			border-right: 1px solid #D6D6D6;
+			color: #444;
+
+			&.btn {
+				border: none;
+				padding: 15px 0;
+				background-color: #E95C0D;
+				color: #FFF;
+				text-transform: uppercase;
+				width: 300px;
+			}
+		}
+	}
+}
