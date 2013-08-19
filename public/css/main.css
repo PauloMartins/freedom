@@ -1,8 +1,28 @@
 body {
-  background: transparent url(../images/bg.jpg) no-repeat top center; }
+  background: transparent url(../images/bg-7.jpg) no-repeat top center; }
 
 * {
-  font-family: 'Text Me One', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; }
+
+.icon {
+  display: block;
+  background: transparent url(../images/sprite.png) no-repeat; }
+  .icon.discussion {
+    width: 15px;
+    height: 17px; }
+  .icon.prev {
+    width: 8px;
+    height: 12px;
+    background-position: 0 -19px; }
+  .icon.next {
+    width: 8px;
+    height: 12px;
+    background-position: -9px -19px; }
+  .icon.photo {
+    width: 19px;
+    height: 14px;
+    background-position: -18px 0; }
 
 .wrap {
   width: 1060px;
@@ -13,6 +33,8 @@ body {
   width: 300px;
   margin: 250px auto 0 auto;
   padding: 25px; }
+  .form.login h2, .form.login input, .form.login label {
+    font-family: 'Text Me One', sans-serif; }
   .form.login h2 {
     display: block;
     margin: 0;
@@ -63,17 +85,188 @@ body {
 
 #header {
   position: relative;
-  height: 80px;
+  height: 60px;
   background-color: #FFF;
   top: -80px; }
+  #header .brand {
+    width: 300px;
+    float: left; }
+  #header .user {
+    width: 300px;
+    float: right;
+    margin-top: 4px; }
+    #header .user .data {
+      width: 235px;
+      float: left;
+      margin-top: 5px; }
+      #header .user .data p {
+        text-align: right;
+        margin: 0; }
+        #header .user .data p.name {
+          font-weight: 400; }
+        #header .user .data p.local {
+          font-size: 11px;
+          color: #333;
+          text-transform: uppercase; }
+    #header .user .photo {
+      float: right;
+      border: 3px solid #666666; }
 
 .grid {
-  margin-top: 100px; }
-  .grid .column {
-    float: left;
-    width: 249px;
-    margin-right: 20px; }
-    .grid .column.last {
-      margin: 0; }
-    .grid .column .box {
+  margin-top: 80px;
+  position: relative; }
+  .grid .alert {
+    width: 100%;
+    top: -60px;
+    left: 0;
+    position: absolute;
+    background-color: #FF9226; }
+    .grid .alert p {
+      display: block;
+      border: 1px solid #000;
+      padding: 10px 20px;
+      margin: 0;
+      color: #FFF;
+      text-align: center; }
+  .grid .box {
+    width: 300px;
+    position: absolute; }
+    .grid .box h2 {
+      font-size: 15px;
+      margin: 0;
+      padding: 10px 20px;
+      background-color: #B22931;
+      text-transform: uppercase;
+      color: #FFF;
+      margin-bottom: 1px;
+      position: relative; }
+      .grid .box h2 .icon {
+        top: 11px;
+        right: 20px;
+        position: absolute; }
+    .grid .box.discussion .item {
+      padding: 15px 15px 0 15px;
       background-color: #FFF; }
+      .grid .box.discussion .item:hover {
+        background-color: #F5F5F5; }
+      .grid .box.discussion .item .photo {
+        width: 30px;
+        float: left; }
+      .grid .box.discussion .item .data {
+        width: 230px;
+        float: right; }
+        .grid .box.discussion .item .data p {
+          margin: 0;
+          font-size: 13px; }
+          .grid .box.discussion .item .data p.name {
+            font-weight: 400; }
+          .grid .box.discussion .item .data p.message {
+            color: #666666; }
+      .grid .box.discussion .item.inverted .photo {
+        text-align: right;
+        float: right; }
+      .grid .box.discussion .item.inverted .data {
+        text-align: right;
+        float: left; }
+      .grid .box.discussion .item .separator {
+        padding-top: 15px;
+        border-bottom: 1px solid #EEE; }
+    .grid .box.discussion.l2 {
+      top: 230px; }
+    .grid .box.photos {
+      right: 0;
+      height: 348px;
+      overflow: hidden; }
+      .grid .box.photos .title {
+        width: 260px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background: transparent url(../images/bg-black-transparent.png);
+        padding: 10px 20px;
+        color: #FFF; }
+        .grid .box.photos .title .icon {
+          position: absolute;
+          right: 20px;
+          top: 14px; }
+      .grid .box.photos ul {
+        width: 600px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1; }
+        .grid .box.photos ul li {
+          float: left; }
+          .grid .box.photos ul li a {
+            display: block; }
+      .grid .box.photos .controls {
+        width: 80px;
+        height: 32px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        background-color: #69B5D7;
+        display: none; }
+        .grid .box.photos .controls a {
+          padding: 10px 15px;
+          display: block;
+          width: 8px;
+          height: 12px; }
+          .grid .box.photos .controls a.prev {
+            float: left; }
+          .grid .box.photos .controls a.next {
+            float: right; }
+          .grid .box.photos .controls a:hover {
+            background-color: #4A91C7; }
+    .grid .box.info {
+      width: 250px;
+      left: 320px; }
+      .grid .box.info .content {
+        padding: 10px 70px 10px 20px; }
+      .grid .box.info p, .grid .box.info span {
+        margin: 0;
+        display: block;
+        color: #FFF;
+        font-weight: 400; }
+      .grid .box.info p {
+        font-size: 18px; }
+      .grid .box.info span {
+        margin-top: 5px;
+        font-size: 10px;
+        color: #DDD; }
+      .grid .box.info .image {
+        position: absolute;
+        width: 70px;
+        height: 100%;
+        background-color: #FFF;
+        top: 0;
+        right: 0; }
+      .grid .box.info.order {
+        background-color: #3171B8; }
+      .grid .box.info.archive {
+        background-color: #EE8448; }
+      .grid .box.info.second {
+        top: 80px; }
+    .grid .box.notifications {
+      top: 360px;
+      right: 0; }
+      .grid .box.notifications .item {
+        background-color: #50B2D7;
+        width: 145px;
+        height: 70px;
+        float: left; }
+        .grid .box.notifications .item.first {
+          margin-right: 5px; }
+        .grid .box.notifications .item.last {
+          margin-left: 5px; }
+        .grid .box.notifications .item .text {
+          padding-left: 10px;
+          width: 135px;
+          height: 25px;
+          color: #FFF;
+          bottom: 0;
+          position: absolute;
+          text-transform: uppercase;
+          font-size: 13px; }

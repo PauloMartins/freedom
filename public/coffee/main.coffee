@@ -4,6 +4,7 @@ exports = window
 # Init
 exports.init = ->
 	header()
+	slider()
 
 window.placeholder = ->
 	form = $ 'form[name=login]'
@@ -26,7 +27,7 @@ window.placeholder = ->
 			$(this).parent().find('label').hide()
 			$(this).parent().find('.errorMessage').remove()
 		.blur ->
-			el = $(this)
+			el = $ this
 
 			if el.val() is ''
 				el.parent().find('label').show()
@@ -34,3 +35,24 @@ window.placeholder = ->
 header = ->
 	$('#header').animate
 		top: 0
+	, 300, 'linear'
+
+slider = ->
+	photos = $ '.photos'
+
+	photos.hover \
+		-> photos.find('.controls').fadeIn('slow'),
+		-> photos.find('.controls').fadeOut('slow')
+
+
+	photos.find('.controls .prev, .controls .next').click (e) ->
+		el = $ this
+		goTo = 0
+
+		if el.hasClass('next')
+			goTo = -300
+		
+		photos.find('ul').stop().animate
+			left: goTo
+
+		e.preventDefault()

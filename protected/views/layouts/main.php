@@ -12,6 +12,8 @@
         <meta name="viewport" content="width=device-width">
 
         <link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700|Text+Me+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700|Open+Sans:300italic,400italic,600italic,400,300,600' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/public/css/normalize.min.css">
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/public/css/boilerplate.css">
         <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/public/css/main.css">
