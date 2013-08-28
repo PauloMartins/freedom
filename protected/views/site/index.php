@@ -39,19 +39,6 @@
 
 					<div class="separator"></div>
 				</div>
-				<div class="item inverted">
-					<div class="clearfix">
-						<div class="data">
-							<p class="name">Luiz Bacellar</p>
-							<p class="message">Acho que vai ser a pintura e a troca dos traves e das barras de suporte da rede de vôlei</p>
-						</div>
-						<div class="photo">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/public/images/tmp-user.jpg" alt="Paulo Martins">
-						</div>
-					</div>
-
-					<div class="separator"></div>
-				</div>
 			</div>
 			<div class="box discussion l2">
 				<h2>Troca do portão <i class="icon discussion" title="Discussão"></i></h2>
@@ -69,14 +56,18 @@
 
 					<div class="separator"></div>
 				</div>
-				<div class="item inverted">
+			</div>
+			<div class="box discussion l3">
+				<h2>Reforma da quadra <i class="icon discussion" title="Discussão"></i></h2>
+
+				<div class="item">
 					<div class="clearfix">
-						<div class="data">
-							<p class="name">Pedro Reaça</p>
-							<p class="message">Que caia, não vou pagar por nada!</p>
-						</div>
 						<div class="photo">
 							<img src="<?php echo Yii::app()->request->baseUrl; ?>/public/images/tmp-user.jpg" alt="Paulo Martins">
+						</div>
+						<div class="data">
+							<p class="name">Paulo Martins</p>
+							<p class="message">Quais serão as melhorias?</p>
 						</div>
 					</div>
 
@@ -84,7 +75,7 @@
 				</div>
 			</div>
 
-			<!-- <div class="box info order">
+			<div class="box info order">
 				<div class="content">
 					<p>Nova encomenda</p>
 					<span>Hoje ás 12:30</span>
@@ -95,12 +86,21 @@
 
 			<div class="box info second archive">
 				<div class="content">
-					<p>Novo arquivo</p>
+					<p>Novo documento</p>
 					<span>Ontem ás 23:00</span>
 				</div>
 				<div class="image">
 				</div>
-			</div> -->
+			</div>
+
+			<div class="box info third message">
+				<div class="content">
+					<p>Nova mensagem</p>
+					<span>Hoje ás 11:00</span>
+				</div>
+				<div class="image">
+				</div>
+			</div>
 
 			<div class="box photos">
 				<div class="title">Festa do Somélia <i class="icon photo"></i></div>

@@ -29,7 +29,7 @@ body {
   margin: 0 auto; }
 
 .form.login {
-  background-color: #FFF;
+  background-color: white;
   width: 300px;
   margin: 250px auto 0 auto;
   padding: 25px; }
@@ -38,19 +38,18 @@ body {
   .form.login h2 {
     display: block;
     margin: 0;
-    border-bottom: 1px solid #EFEFEF;
+    border-bottom: 1px solid #efefef;
     margin: 0 0 20px 0;
     padding: 3px 0 3px 0;
     text-transform: uppercase;
     font-weight: 700;
-    color: #444; }
+    color: #444444; }
   .form.login fieldset {
     margin: 10px 0;
     position: relative; }
-    .form.login fieldset label,
-    .form.login fieldset input {
+    .form.login fieldset label, .form.login fieldset input {
       font-size: 18px;
-      color: #AAA;
+      color: #aaaaaa;
       text-transform: lowercase;
       font-weight: 400; }
     .form.login fieldset label {
@@ -64,16 +63,16 @@ body {
       width: 268px;
       display: block;
       padding: 15px;
-      background-color: #F8F8F8;
-      border: 1px solid #EFEFEF;
-      border-bottom: 1px solid #D6D6D6;
-      border-right: 1px solid #D6D6D6;
-      color: #444; }
+      background-color: #f8f8f8;
+      border: 1px solid #efefef;
+      border-bottom: 1px solid #d6d6d6;
+      border-right: 1px solid #d6d6d6;
+      color: #444444; }
       .form.login fieldset input.btn {
         border: none;
         padding: 15px 0;
-        background-color: #E95C0D;
-        color: #FFF;
+        background-color: #e95c0d;
+        color: white;
         text-transform: uppercase;
         width: 300px; }
     .form.login fieldset .errorMessage {
@@ -86,7 +85,7 @@ body {
 #header {
   position: relative;
   height: 60px;
-  background-color: #FFF;
+  background-color: white;
   top: -80px; }
   #header .brand {
     width: 300px;
@@ -106,7 +105,7 @@ body {
           font-weight: 400; }
         #header .user .data p.local {
           font-size: 11px;
-          color: #333;
+          color: #333333;
           text-transform: uppercase; }
     #header .user .photo {
       float: right;
@@ -120,13 +119,13 @@ body {
     top: -60px;
     left: 0;
     position: absolute;
-    background-color: #FF9226; }
+    background-color: #ff9226; }
     .grid .alert p {
       display: block;
-      border: 1px solid #000;
+      border: 1px solid black;
       padding: 10px 20px;
       margin: 0;
-      color: #FFF;
+      color: white;
       text-align: center; }
   .grid .box {
     width: 300px;
@@ -135,9 +134,9 @@ body {
       font-size: 15px;
       margin: 0;
       padding: 10px 20px;
-      background-color: #B22931;
+      background-color: #b22931;
       text-transform: uppercase;
-      color: #FFF;
+      color: white;
       margin-bottom: 1px;
       position: relative; }
       .grid .box h2 .icon {
@@ -146,9 +145,9 @@ body {
         position: absolute; }
     .grid .box.discussion .item {
       padding: 15px 15px 0 15px;
-      background-color: #FFF; }
+      background-color: white; }
       .grid .box.discussion .item:hover {
-        background-color: #F5F5F5; }
+        background-color: whitesmoke; }
       .grid .box.discussion .item .photo {
         width: 30px;
         float: left; }
@@ -170,9 +169,13 @@ body {
         float: left; }
       .grid .box.discussion .item .separator {
         padding-top: 15px;
-        border-bottom: 1px solid #EEE; }
+        border-bottom: 1px solid #eeeeee; }
     .grid .box.discussion.l2 {
-      top: 230px; }
+      top: 120px; }
+    .grid .box.discussion.l3 {
+      top: 275px; }
+    .grid .box.discussion.l4 {
+      top: 395px; }
     .grid .box.photos {
       right: 0;
       height: 348px;
@@ -185,7 +188,7 @@ body {
         z-index: 2;
         background: transparent url(../images/bg-black-transparent.png);
         padding: 10px 20px;
-        color: #FFF; }
+        color: white; }
         .grid .box.photos .title .icon {
           position: absolute;
           right: 20px;
@@ -207,7 +210,7 @@ body {
         bottom: 0;
         left: 0;
         z-index: 2;
-        background-color: #69B5D7;
+        background-color: #69b5d7;
         display: none; }
         .grid .box.photos .controls a {
           padding: 10px 15px;
@@ -219,7 +222,7 @@ body {
           .grid .box.photos .controls a.next {
             float: right; }
           .grid .box.photos .controls a:hover {
-            background-color: #4A91C7; }
+            background-color: #4a91c7; }
     .grid .box.info {
       width: 250px;
       left: 320px; }
@@ -228,32 +231,36 @@ body {
       .grid .box.info p, .grid .box.info span {
         margin: 0;
         display: block;
-        color: #FFF;
+        color: white;
         font-weight: 400; }
       .grid .box.info p {
         font-size: 18px; }
       .grid .box.info span {
         margin-top: 5px;
         font-size: 10px;
-        color: #DDD; }
+        color: #dddddd; }
       .grid .box.info .image {
         position: absolute;
         width: 70px;
         height: 100%;
-        background-color: #FFF;
+        background-color: white;
         top: 0;
         right: 0; }
       .grid .box.info.order {
-        background-color: #3171B8; }
+        background-color: #3171b8; }
       .grid .box.info.archive {
-        background-color: #EE8448; }
+        background-color: #ee8448; }
+      .grid .box.info.message {
+        background-color: #92d68b; }
       .grid .box.info.second {
         top: 80px; }
+      .grid .box.info.third {
+        top: 160px; }
     .grid .box.notifications {
       top: 360px;
       right: 0; }
       .grid .box.notifications .item {
-        background-color: #50B2D7;
+        background-color: #50b2d7;
         width: 145px;
         height: 70px;
         float: left; }
@@ -265,7 +272,7 @@ body {
           padding-left: 10px;
           width: 135px;
           height: 25px;
-          color: #FFF;
+          color: white;
           bottom: 0;
           position: absolute;
           text-transform: uppercase;

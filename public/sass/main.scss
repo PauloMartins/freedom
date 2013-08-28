@@ -255,7 +255,15 @@ body {
 			}
 
 			&.l2 {
-				top: 230px;
+				top: 120px;
+			}
+
+			&.l3 {
+				top: 275px;
+			}
+
+			&.l4 {
+				top: 395px;
 			}
 		}
 
@@ -370,8 +378,16 @@ body {
 				background-color: #EE8448;
 			}
 
+			&.message {
+				background-color: #92D68B;
+			}
+
 			&.second {
 				top: 80px;
+			}
+
+			&.third {
+				top: 160px;
 			}
 		}
 
