@@ -191,11 +191,12 @@ body {
 			font-size: 15px;
 			margin: 0;
 			padding: 10px 20px;
-			background-color: #B22931;
+			background-color: #FFF;
 			text-transform: uppercase;
-			color: #FFF;
-			margin-bottom: 1px;
+			color: #CCC;
 			position: relative;
+			border-bottom: 1px solid #F5F5F5;
+			font-weight: bold;
 
 			.icon {
 				top: 11px;
@@ -250,12 +251,12 @@ body {
 
 				.separator {
 					padding-top: 15px;
-					border-bottom: 1px solid #EEE;
+					border-bottom: 1px solid #F5F5F5;
 				}
 			}
 
 			&.l2 {
-				top: 120px;
+				top: 190px;
 			}
 
 			&.l3 {

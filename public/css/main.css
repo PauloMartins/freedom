@@ -134,11 +134,12 @@ body {
       font-size: 15px;
       margin: 0;
       padding: 10px 20px;
-      background-color: #b22931;
+      background-color: white;
       text-transform: uppercase;
-      color: white;
-      margin-bottom: 1px;
-      position: relative; }
+      color: #cccccc;
+      position: relative;
+      border-bottom: 1px solid whitesmoke;
+      font-weight: bold; }
       .grid .box h2 .icon {
         top: 11px;
         right: 20px;
@@ -169,9 +170,9 @@ body {
         float: left; }
       .grid .box.discussion .item .separator {
         padding-top: 15px;
-        border-bottom: 1px solid #eeeeee; }
+        border-bottom: 1px solid whitesmoke; }
     .grid .box.discussion.l2 {
-      top: 120px; }
+      top: 190px; }
     .grid .box.discussion.l3 {
       top: 275px; }
     .grid .box.discussion.l4 {

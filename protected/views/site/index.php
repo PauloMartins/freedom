@@ -39,6 +39,19 @@
 
 					<div class="separator"></div>
 				</div>
+				<div class="item">
+					<div class="clearfix">
+						<div class="photo">
+							<img src="<?php echo Yii::app()->request->baseUrl; ?>/public/images/tmp-user.jpg" alt="Paulo Martins">
+						</div>
+						<div class="data">
+							<p class="name">Ronald Martins</p>
+							<p class="message">As mesmas de sempre!</p>
+						</div>
+					</div>
+
+					<div class="separator"></div>
+				</div>
 			</div>
 			<div class="box discussion l2">
 				<h2>Troca do portão <i class="icon discussion" title="Discussão"></i></h2>
@@ -51,23 +64,6 @@
 						<div class="data">
 							<p class="name">José Alencar</p>
 							<p class="message">Este portão precisa ser substituído urgentemente, porque se não ele vai cair em cima de alguém.</p>
-						</div>
-					</div>
-
-					<div class="separator"></div>
-				</div>
-			</div>
-			<div class="box discussion l3">
-				<h2>Reforma da quadra <i class="icon discussion" title="Discussão"></i></h2>
-
-				<div class="item">
-					<div class="clearfix">
-						<div class="photo">
-							<img src="<?php echo Yii::app()->request->baseUrl; ?>/public/images/tmp-user.jpg" alt="Paulo Martins">
-						</div>
-						<div class="data">
-							<p class="name">Paulo Martins</p>
-							<p class="message">Quais serão as melhorias?</p>
 						</div>
 					</div>
 
