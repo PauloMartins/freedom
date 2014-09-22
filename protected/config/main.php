@@ -53,7 +53,7 @@ return array(
 		// uncomment the following to use a MySQL database
 		*/
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.0.0.1;dbname=freedom',
+			'connectionString' => 'mysql:host=127.0.0.1;dbname=personal-freedom',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
